@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto FontSize</title>
+    <script src="../dist/bundle.js"></script>
+    <style type="text/css">
+        .font-item{
+            display:flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 20px;
+            height:60px;
+            width:600px;
+        }
+    </style>
+</head>
+<body>
+<div class="font-item" id="font1">这个是测试</div>
+<div class="font-item" id="font2">这个是测试这个是测试这个是测试这个是测试</div>
+<div class="font-item" id="font3">这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试</div>
+<div class="font-item" id="font4">这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试这个是测试</div>
+
+<script type="text/javascript">
+  var autoFontsize = new AutoFontSize(document.getElementById("font1"),600,60);
+  autoFontsize.fontSize();
+
+  autoFontsize = new AutoFontSize(document.getElementById("font2"),600,60);
+  autoFontsize.fontSize();
+
+  autoFontsize = new AutoFontSize(document.getElementById("font3"),600,60);
+  autoFontsize.fontSize();
+
+  autoFontsize = new AutoFontSize(document.getElementById("font4"),600,60);
+  autoFontsize.fontSize();
+</script>
+</body>
+</html>
