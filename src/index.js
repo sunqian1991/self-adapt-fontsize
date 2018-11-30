@@ -1,4 +1,4 @@
-class AutoFontSize{
+class SelfAdaptFontSize{
 
   constructor() {
     this.maxSize = 200;
@@ -6,7 +6,7 @@ class AutoFontSize{
 
   static getInstance() {
     if(!this.instance){
-      this.instance = new AutoFontSize();
+      this.instance = new SelfAdaptFontSize();
     }
     return this.instance;
   }
@@ -63,6 +63,7 @@ class AutoFontSize{
     document.getElementsByTagName("body")[0].appendChild(subDom);
     subDom.innerHTML = domHtml;
     subDom.style.position = 'absolute';
+    subDom.style.opacity = '0';
     subDom.style.padding = '0px';
     subDom.style.margin = '0px';
     for (; this.nowSize < this.maxSize; this.nowSize+=2) {
@@ -85,7 +86,7 @@ class AutoFontSize{
 }
 
 if(typeof exports === 'object' && typeof module !== 'undefined') {
-  module.exports = AutoFontSize
+  module.exports = SelfAdaptFontSize
 } else {
-  window.AutoFontSize=AutoFontSize;
+  window.SelfAdaptFontSize=SelfAdaptFontSize;
 }

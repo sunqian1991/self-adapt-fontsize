@@ -1,21 +1,20 @@
 # self-adapt-fontsize
-## Introduce
+## 介绍
 
-According to the given width and height, the maximum font size that can adapt to the width and height will be set in order to realize the self-adapt-fontsize.
+根据给定的宽和高来设置可适应此宽高的最大字号，以实现字号自适应
 
-## Install
-#### npm
+## 安装
+### npm
 ```shell
 npm install self-adapt-fontsize --save
 ```
 
-#### local reference
+### 本地引用
 ```html
 <script src="./dist/index.js" type="text/javascript"></script>
 ```
 
-## Usage
-the following uses of this plugin are both right. 
+## 使用
 
 ```javascript
 <script src="./dist/index.js" type="text/javascript"></script>
@@ -47,4 +46,5 @@ safs.fontSize(document.getElementById('test3'), 300, 30);
 <div id="test1" style="width:600px; height:60px;">this is a test.</div>
 <div id="test2" style="width:400px; height:40px;">this is a test. this is a test.</div>
 <div id="test3" style="width:300px; height:30px;">this is a test. this is a test. this is a test. this is a test.</div>
+```
 ```
