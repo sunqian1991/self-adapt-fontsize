@@ -23,11 +23,14 @@ the following uses of this plugin are both right.
 ...
 
 var safs = SelfAdaptFontSize.getInstance();
-safs.fontSize(document.getElementById("font1"),600,60);
-safs.fontSize(document.getElementById("font2"),500,50);
-safs.fontSize(document.getElementById("font3"),400,40);
+safs.fontSize(document.getElementById("test1"),600,60);
+safs.fontSize(document.getElementById("test2"),500,50);
+safs.fontSize(document.getElementById("test3"),400,40);
 
 ...
+<div id="test1" style="width:600px; height:60px;">this is a test.</div>
+<div id="test2" style="width:400px; height:40px;">this is a test. this is a test.</div>
+<div id="test3" style="width:300px; height:30px;">this is a test. this is a test. this is a test. this is a test.</div>
 ```
 
 *******
