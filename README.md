@@ -1,4 +1,7 @@
 # self-adapt-fontsize
+
+[![Build Status](https://travis-ci.com/sunqian1991/self-adapt-fontsize.svg?branch=master)](https://travis-ci.com/sunqian1991/self-adapt-fontsize)
+
 ## Introduce
 
 According to the given width and height, the maximum font size that can adapt to the width and height will be set in order to realize the self-adapt-fontsize.
