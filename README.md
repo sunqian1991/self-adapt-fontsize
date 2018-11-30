@@ -24,8 +24,8 @@ the following uses of this plugin are both right.
 
 var safs = SelfAdaptFontSize.getInstance();
 safs.fontSize(document.getElementById("test1"),600,60);
-safs.fontSize(document.getElementById("test2"),500,50);
-safs.fontSize(document.getElementById("test3"),400,40);
+safs.fontSize(document.getElementById("test2"),400,40);
+safs.fontSize(document.getElementById("test3"),300,30);
 
 ...
 <div id="test1" style="width:600px; height:60px;">this is a test.</div>
