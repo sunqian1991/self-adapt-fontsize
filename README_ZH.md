@@ -1,4 +1,7 @@
 # self-adapt-fontsize
+
+[![Build Status](https://travis-ci.com/sunqian1991/self-adapt-fontsize.svg?branch=master)](https://travis-ci.com/sunqian1991/self-adapt-fontsize)
+
 ## 介绍
 
 根据给定的宽和高来设置可适应此宽高的最大字号，以实现字号自适应
